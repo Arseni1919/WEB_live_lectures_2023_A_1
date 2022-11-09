@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: darkblue;
+    margin: 10px;
+}
+
+.container {
+    margin: 20px 10px;
+    padding: 20px;
+    border: 2px red dotted;
+    border-radius: 50px;
+}
+
+#box-1 {
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+
+    margin: 20px;
+    padding: 10px;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    margin: 20px;
+    padding: 10px;
+}
+
+#box-1 h2 {
+    color: yellow;
+}
+
+.box-2 p a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: cadetblue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+a:active {
+    background-color: white;
+    color: red;
+    border: 2px red solid;
+}
+
+a:visited {
+    background-color: rebeccapurple;
+}
+
+.my-form {
+    margin: 20px;
+
+}
+
+.my-form .my-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-group input[type="text"], .my-group input[type="email"], .my-group textarea {
+    padding: 8px;
+    width: 90%;
+}
+
+.my-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+}
+
+.my-form input[type="submit"]:hover {
+    background-color: white;
+    border: 1px solid #333;
+    color: #333;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+
+    background-image: url("pics/bg3.jpg");
+    background-position: center bottom;
+    background-size: 300px 300px;
+    /*background-repeat: no-repeat;*/
+}
+
+.p-box h1 {
+    /*position: fixed;*/
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+.my-list {
+    margin: 20px;
+    padding: 10px;
+}
+
+.my-list li {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.my-list li:nth-child(even) {
+    background-color: red;
+}
+
+
+@media (max-width: 600px) {
+    .block {
+        display: block;
+        width: 100%;
+    }
+
+    body {
+        background-color: skyblue;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    .my-list {
+        display: none;
+    }
+
+}
+
+
+
