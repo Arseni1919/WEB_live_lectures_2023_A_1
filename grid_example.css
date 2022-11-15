@@ -1,0 +1,39 @@
+
+
+body {
+    display: grid;
+    grid-template-areas:
+    'header header sidebar'
+    'nav content sidebar'
+    'nav footer sidebar';
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 80px 100px 70px;
+    gap: 10px;
+}
+
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.content {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+header, nav, .content, .sidebar, footer {
+    background-color: cadetblue;
+    border: white 2px solid;
+
+}
