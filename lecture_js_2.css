@@ -1,0 +1,11 @@
+.bg-dark {
+    background-color: #333333;
+    color: white;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
